@@ -1,6 +1,7 @@
 AllCops:
   Exclude:
     - '**/bin/**'
+    - lib/tasks/auto_annotate_models.rake
 
 Metrics/CyclomaticComplexity:
   Enabled: false
