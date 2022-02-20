@@ -1,0 +1,6 @@
+AllCops:
+  Exclude:
+    - '**/bin/**'
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
