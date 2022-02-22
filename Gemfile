@@ -47,6 +47,7 @@ group :development do
   gem 'annotate'
   gem 'awesome_print'
   gem 'brakeman'
+  gem 'bundler-audit'
   gem 'rubocop'
   gem 'rubocop-performance'
   gem 'rubocop-rails'
