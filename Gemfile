@@ -44,8 +44,8 @@ group :development, :test do
 end
 
 group :development do
-  gem 'brakeman'
   gem 'annotate'
+  gem 'brakeman'
   gem 'rubocop'
   gem 'rubocop-performance'
   gem 'rubocop-rails'
