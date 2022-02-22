@@ -45,6 +45,7 @@ end
 
 group :development do
   gem 'annotate'
+  gem 'awesome_print'
   gem 'brakeman'
   gem 'rubocop'
   gem 'rubocop-performance'
