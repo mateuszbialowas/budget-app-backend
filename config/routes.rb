@@ -8,4 +8,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  # root redirect to youtube
+  root to: redirect('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
 end
