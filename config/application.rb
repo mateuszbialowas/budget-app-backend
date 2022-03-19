@@ -22,7 +22,6 @@ Bundler.require(*Rails.groups)
 
 module BudgetAppBackend
   class Application < Rails::Application # rubocop:disable Style/Documentation
-    config.session_store :cookie_store, key: '_interslice_session'
     config.active_job.queue_adapter = :sidekiq
 
     # Initialize configuration defaults for originally generated Rails version.
